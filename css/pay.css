@@ -1,0 +1,320 @@
+body {
+  width: 1920px;
+  background: #fff;
+}
+/* 快捷导航栏开始 */
+.shortcut {
+  background: #f1f1f1;
+  height: 31px;
+  line-height: 31px;
+}
+.shortcut .shortcut-left a {
+  font-size: 14px;
+  margin-left: 14px;
+}
+.shortcut .shortcut-right ul li {
+  float: left;
+  font-size: 14px;
+}
+.shortcut .shortcut-right ul li span {
+  margin: 0 5px;
+}
+.shortcut .shortcut-right ul .link {
+  width: 1px;
+  height: 14px;
+  margin: 9px 17px 0;
+  background: #000;
+}
+.shortcut .shortcut-right .xiala {
+  /* 下拉框 */
+  position: relative;
+}
+.shortcut .shortcut-right .xiala ul li {
+  position: relative;
+  top: 0;
+  left: 8px;
+  float: none;
+  padding: 6px;
+  display: none;
+  background-color: #f1f1f1;
+}
+.shortcut .shortcut-right .xiala ul li a {
+  color: #fff;
+  width: 94px;
+  height: 43px;
+}
+.shortcut .shortcut-right .xiala:hover ul li {
+  display: block;
+  background-color: #c81623;
+  z-index: 1;
+}
+.shortcut .shortcut-right .xiala:hover ul li:hover {
+  background-color: #f1f1f1;
+}
+.shortcut .shortcut-right .xiala:hover ul li:hover a {
+  color: red;
+}
+/* 快捷导航栏结束 */
+/* 头部开始 */
+header .relative {
+  width: 1200px;
+  position: relative;
+}
+header .relative .logo {
+  width: 171px;
+  height: 61px;
+  background: url(../img/logo.png);
+  font-size: 0;
+  margin: 23px 0;
+}
+header .relative .logo a {
+  display: block;
+  width: 171px;
+  height: 61px;
+}
+header .relative .search {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 536px;
+  height: 32px;
+  border: 1px solid #b1191a;
+}
+header .relative .search input {
+  float: left;
+  width: 454px;
+  line-height: 32px;
+  text-indent: 2em;
+  font-size: 16px;
+}
+header .relative .search a {
+  display: block;
+  float: left;
+  width: 82px;
+  line-height: 32px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background: #b1191a;
+}
+header .relative .sum {
+  font-size: 20px;
+  color: #b1191a;
+  margin-bottom: 23px;
+}
+/* 头部结束 */
+/* 支付详情开始 */
+.pay .main {
+  border: 1px solid #dddddd;
+  padding: 40px 25px 20px;
+  margin-bottom: 25px;
+}
+.pay .main .address {
+  padding: 0 20px;
+  border-bottom: 1px solid #dddddd;
+}
+.pay .main .address ul .li1 {
+  font-size: 16px;
+}
+.pay .main .address h4 {
+  margin: 15px;
+}
+.pay .main .address h4 span {
+  border: 1px solid #b1191a;
+  margin-right: 10px;
+  padding: 5px;
+}
+.pay .main .address h6 {
+  margin: 10px;
+}
+.pay .main .getaddress {
+  padding: 20px 35px;
+  border-bottom: 1px solid #dddddd;
+}
+.pay .main .getaddress .getaddress1 {
+  border: 1px solid #dddddd;
+  margin-right: 10px;
+  padding: 5px;
+}
+.pay .main .pays {
+  padding: 20px 20px;
+  border-bottom: 1px solid #dddddd;
+}
+.pay .main .pays h3 {
+  margin: 20px 10px;
+}
+.pay .main .pays span {
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+.pay .main .pays .pays3 {
+  border: 1px solid #b1191a;
+  margin: 0 10px;
+}
+.pay .main .delivery {
+  padding: 20px 20px;
+}
+.pay .main .delivery h3 {
+  margin: 20px 10px;
+}
+.pay .main .delivery .delivery1 {
+  width: 1180px;
+  height: 90px;
+  background: #f4f4f4;
+}
+.pay .main .delivery .delivery1 h5 {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.pay .main .delivery .delivery1 .kd {
+  padding: 5px 30px;
+  background: #fff;
+  border: 1px solid #b1191a;
+  margin-left: 30px;
+}
+.pay .main .delivery .delivery2 {
+  width: 1180px;
+  height: 140px;
+  background: #feedef;
+}
+.pay .main .delivery .delivery2 h5 {
+  padding: 10px;
+}
+.pay .main .delivery .delivery2 img {
+  margin: 5px 40px 10px 20px;
+}
+.pay .main .delivery .delivery2 .text {
+  width: 350px;
+}
+.pay .main .delivery .delivery2 .text h6 {
+  color: #c81623;
+}
+.pay .main .delivery .delivery2 .numder {
+  margin-top: 40px;
+}
+.pay .main .delivery .delivery2 .numder span {
+  margin-right: 50px;
+}
+.pay .main .pik h3 {
+  margin: 10px 40px;
+}
+.pay .main .pik h4 {
+  margin-left: 30px;
+}
+.pay .main .pik h4 span {
+  margin-left: 30px;
+}
+.numder .numder1 {
+  margin-bottom: 20px;
+}
+.numder .numder1 span {
+  display: inline-block;
+  width: 140px;
+}
+.numder .numder2 {
+  width: 1200px;
+  padding-right: 10px;
+  height: 70px;
+  background: #f4f4f4;
+  margin-bottom: 20px;
+}
+.numder .numder2 .numder2-li {
+  margin: 12px 0 12px 95px;
+}
+.numder .btn {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #c81623;
+  color: #fff;
+  margin: 20px 80px 50px 0;
+}
+.numder .btn:hover {
+  background: #dddddd;
+  color: #333;
+}
+/* 支付详情结束 */
+/* 底部开始 */
+footer {
+  background: #f5f5f5;
+  height: 418px;
+}
+footer .safeguard {
+  padding: 30px 0 30px 40px;
+  border-bottom: 1px solid #ededed;
+}
+footer .safeguard ul li {
+  width: 230px;
+  height: 50px;
+  float: left;
+}
+footer .safeguard ul li em {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url('../img/icons.png') no-repeat;
+  background-position: -252px -3px;
+}
+footer .safeguard ul li span {
+  display: block;
+  padding-top: 5px;
+}
+footer .safeguard ul li:nth-child(2) em {
+  background-position: -255px -53px;
+}
+footer .safeguard ul li:nth-child(3) em {
+  background-position: -256px -106px;
+}
+footer .safeguard ul li:nth-child(4) em {
+  background-position: -258px -157px;
+}
+footer .safeguard ul li:nth-child(5) em {
+  background-position: -257px -209px;
+}
+footer .service {
+  padding: 24px 0 25px 50px;
+  border-bottom: 1px solid #ededed;
+}
+footer .service dl {
+  float: left;
+  width: 200px;
+}
+footer .service dl dt {
+  font-size: 18px;
+  height: 30px;
+  color: #000;
+}
+footer .service dl dd {
+  font-size: 16px;
+  height: 22px;
+}
+footer .service dl:nth-child(6) {
+  width: 100px;
+}
+footer .service dl:nth-child(6) dd:nth-child(3) {
+  margin-top: 65px;
+}
+footer .link {
+  text-align: center;
+  padding: 24px 0 0 50px;
+}
+footer .link ul li {
+  float: left;
+  font-size: 16px;
+}
+footer .link ul .link-li {
+  width: 1px;
+  height: 16px;
+  margin: 5px 10px;
+  background: #999999;
+}
+footer .address {
+  font-size: 14px;
+  text-align: center;
+}
+footer .copy {
+  font-size: 14px;
+  text-align: center;
+}
+/* 底部结束 */

@@ -1,0 +1,169 @@
+/*头部开始*/
+header h1 a{
+	margin: 10px 0;
+	display: block;
+	width: 171px;
+	height: 61px;
+	background: url('../img/logo.png') no-repeat;
+	font-size: 0;
+}
+/*头部结束*/
+
+/* 内容开始 */
+.message{
+	background: #7e00ff;
+}
+.message-w{
+	position: relative;
+}
+.message .message-right{
+	position: absolute;
+	top: 62px;
+	right: 0;
+	width: 306px;
+	height: 339px;
+	background: #fff;
+	padding: 23px 37px 0 37px;
+}
+.message-right .nav ul li{
+   float: left;
+   height: 40px;
+   font-size: 18px;
+}
+.nav ul li a:focus{
+	color: red;
+}
+.message-right .nav ul li:nth-child(1){
+	padding-left: 10px;
+}
+.message-right .nav .link{
+	width: 1px;
+	height: 18px;
+	background: #666;
+	margin: 6px 68px;
+
+}
+/* 扫码登入开始 */
+#message2{
+	height: 270px;
+}
+#message2 img{
+  width: 180px;
+  height: 180px;
+  margin: 19px 55px;
+}
+/* 扫码登入结束 */
+.message-right .prompt{
+	margin-bottom: 10px;
+	width: 300px;
+	height: 24px;
+	line-height: 24px;
+	background: #fffdee;
+	font-size: 14px;
+	padding-left: 10px;
+	border: 1px solid #f5eecf;
+}
+.message-right .user-name,
+.message-right .password{
+	border: 1px solid #999;
+	margin-bottom: 15px;
+}
+
+.message-right .user-name span,
+.message-right .password span{
+	display: inline-block;
+	 width: 37px;
+	 height: 34px;
+	 line-height: 34px;
+	 font-size: 24px;
+	 text-align: center;
+	 background: #cfcdcd;
+}
+.message-right .user-name input,
+.message-right .password input{
+	width: 264px;
+	height: 34px;
+	text-indent: 10px;
+}
+.message-right .text{
+	height: 34px;
+}
+.message-right .text input{
+	height: 30px;
+	width: 20px;
+	vertical-align: middle;
+}
+.message-right .text label{
+	display: inline-block;
+	font-size: 14px;
+	width: 100px;
+	height: 30px;
+	margin-left: 10px;
+}
+.message-right .text a{
+	margin-left: 108px;
+}
+.message-right .buttun a{
+	display: block;
+	width: 303px;
+	height: 41px;
+	margin-top: 10px;
+	line-height: 41px;
+	font-size: 18px;
+	text-align: center;
+	background: red;
+	color: #fff;
+}
+.message-right .buttun a:hover{
+	color: red;
+	background: #ccc;
+}
+.message-right .third-party ul li{
+	float: left;
+	margin: 10px 10px 0 0;
+	width: 34px;
+	height: 34px;
+	background: url(../img/regetype.png) no-repeat;
+	background-position: -173px -8px;
+}
+.message-right .third-party ul li:nth-child(2){
+	background-position: -18px -8px;
+}
+.message-right .third-party ul li:nth-child(3){
+	background-position: -69px -8px;
+}
+.message-right .third-party ul li:nth-child(4){
+	background-position:  -122px -8px;
+}
+.message-right .third-party>a{
+	display: inline-block;
+	height: 34px;
+	font-size: 16px;
+	margin: 15px 10px 0 40px;
+
+}
+
+/* 内容结束 */
+
+/* 底部开始 */
+footer{
+	text-align: center;
+}
+footer .link ul{
+	margin-left: 100px;
+}
+footer .link ul li{
+	float: left;
+	font-size: 14px;
+	height: 46px;
+	line-height: 46px;
+}
+footer .link ul .link-li{
+	width: 1px;
+	height: 14px;
+	background: #999999;
+	margin-top: 16px;
+	margin: 16px 14px 0 14px;
+}
+/* 底部及结束 */
+

@@ -1,0 +1,199 @@
+body {
+  width: 1920px;
+  background: #fff;
+}
+/* 快捷导航栏开始 */
+.shortcut {
+  background: #f1f1f1;
+  height: 31px;
+  line-height: 31px;
+}
+.shortcut .shortcut-left a {
+  font-size: 14px;
+  margin-left: 14px;
+}
+.shortcut .shortcut-right ul li {
+  float: left;
+  font-size: 14px;
+}
+.shortcut .shortcut-right ul li span {
+  margin: 0 5px;
+}
+.shortcut .shortcut-right ul .link {
+  width: 1px;
+  height: 14px;
+  margin: 9px 17px 0;
+  background: #000;
+}
+/* 快捷导航栏结束 */
+/* 头部开始 */
+header {
+  margin-top: 25px;
+  height: 150px;
+  border-bottom: 2px solid #b1191a;
+}
+header .relative {
+  position: relative;
+}
+header .relative .logo a {
+  display: block;
+  width: 171px;
+  height: 61px;
+  background: url(../img/logo.png) no-repeat;
+  font-size: 0;
+}
+header .relative .search {
+  position: absolute;
+  top: 0;
+  left: 334px;
+  width: 536px;
+  height: 32px;
+  border: 1px solid #b1191a;
+}
+header .relative .search input {
+  float: left;
+  width: 454px;
+  line-height: 32px;
+  text-indent: 2em;
+  font-size: 16px;
+}
+header .relative .search a {
+  display: block;
+  float: left;
+  width: 82px;
+  line-height: 32px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background: #b1191a;
+}
+header .relative .shopcar {
+  position: absolute;
+  top: 0;
+  right: 64px;
+  width: 128px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 16px;
+  padding: 0 12px;
+  border: 1px solid #dfdfdf;
+  background: #f7f7f7;
+}
+header .relative .shopcar a {
+  margin: 0 2px;
+}
+header .relative .shopcar em {
+  position: absolute;
+  top: -17px;
+  right: 28px;
+  display: block;
+  width: 20px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  color: #fff;
+  border-radius: 38% 11%;
+  background: #b1191a;
+}
+header .relative .hotwrods {
+  position: absolute;
+  top: 44px;
+  left: 347px;
+}
+header .relative .hotwrods ul li {
+  float: left;
+  margin-left: 26px;
+}
+header .relative .nav {
+  position: absolute;
+  top: 122px;
+  left: 240px;
+}
+header .relative .nav li {
+  float: left;
+  margin-left: 50px;
+}
+/* 头部结束 */
+/* 底部开始 */
+footer {
+  background: #f5f5f5;
+  height: 418px;
+}
+footer .safeguard {
+  padding: 30px 0 30px 40px;
+  border-bottom: 1px solid #ededed;
+}
+footer .safeguard ul li {
+  width: 230px;
+  height: 50px;
+  float: left;
+}
+footer .safeguard ul li em {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url('../img/icons.png') no-repeat;
+  background-position: -252px -3px;
+}
+footer .safeguard ul li span {
+  display: block;
+  padding-top: 5px;
+}
+footer .safeguard ul li:nth-child(2) em {
+  background-position: -255px -53px;
+}
+footer .safeguard ul li:nth-child(3) em {
+  background-position: -256px -106px;
+}
+footer .safeguard ul li:nth-child(4) em {
+  background-position: -258px -157px;
+}
+footer .safeguard ul li:nth-child(5) em {
+  background-position: -257px -209px;
+}
+footer .service {
+  padding: 24px 0 25px 50px;
+  border-bottom: 1px solid #ededed;
+}
+footer .service dl {
+  float: left;
+  width: 200px;
+}
+footer .service dl dt {
+  font-size: 18px;
+  height: 30px;
+  color: #000;
+}
+footer .service dl dd {
+  font-size: 16px;
+  height: 22px;
+}
+footer .service dl:nth-child(6) {
+  width: 100px;
+}
+footer .service dl:nth-child(6) dd:nth-child(3) {
+  margin-top: 65px;
+}
+footer .link {
+  text-align: center;
+  padding: 24px 0 0 50px;
+}
+footer .link ul li {
+  float: left;
+  font-size: 16px;
+}
+footer .link ul .link-li {
+  width: 1px;
+  height: 16px;
+  margin: 5px 10px;
+  background: #999999;
+}
+footer .address {
+  font-size: 14px;
+  text-align: center;
+}
+footer .copy {
+  font-size: 14px;
+  text-align: center;
+}
+/* 底部结束 */
